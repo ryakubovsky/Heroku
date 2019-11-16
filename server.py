@@ -7,7 +7,7 @@ from bottle import route, run, static_file, view
 
 @route("/")
 def index():
-    return "<h1>My first app on Heroku! Hello World! Deploy!</h1>"
+    return "<h1>My second app on Heroku with Auto deploy!</h1>"
 
 
 @route("/api/roll/<some_id:int>")
